@@ -1,11 +1,15 @@
-# Sample Snack app
+# Projeto FIAP FILMES
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## Grupo 
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+Felipe Gabriel Correa da Silva RM 85487
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+Carlos Henrique Neves Júnior RM 82378
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+Guilherme Rosa Campanha RM 84162
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+Isabela Brito Pessoa RM 85912
+
+Marcos Moura dos Santos RM 86507
+
+Leandro de Jesus Luna RM 86492 (Aluno da Turma 3ECA)
