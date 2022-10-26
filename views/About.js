@@ -51,7 +51,8 @@ const styles = StyleSheet.create({
     borderRadius: 6,
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginLeft: '2em',
+    marginLeft: 2,
+    marginHorizontal: 10
   },
   poster: {
     position: 'absolute',

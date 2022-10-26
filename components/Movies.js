@@ -11,5 +11,5 @@ export default function Movies() {
   if (loading) return <Text>Carregando filmes..</Text>;
   const movies = data.results;
 
-  return <View>{<FlatList data={movies} renderItem={({ item }) => <Card media={item}></Card>} horizontal/>}</View>;
+  return <View>{<FlatList data={movies} renderItem={({ item }) => <Card media={item}/>} horizontal/>}</View>;
 }
