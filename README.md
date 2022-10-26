@@ -12,4 +12,4 @@ Isabela Brito Pessoa RM 85912
 
 Marcos Moura dos Santos RM 86507
 
-Leandro de Jesus Luna RM 86492
+Leandro de Jesus Luna RM 86492 (Aluno da Turma 3ECA)
