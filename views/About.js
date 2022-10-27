@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     bottom: '35%',
     width: '80%',
     height: '50%',
-    borderRadius: '50%',
+    borderRadius: 70,
   },
   personalInfo: {
     color: 'pink',

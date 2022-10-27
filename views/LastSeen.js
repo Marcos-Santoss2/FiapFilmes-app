@@ -6,19 +6,17 @@ import Constants from 'expo-constants';
 import Title from '../components/Title';
 
 export default function LastSeen() {
-  const { lastSeen } = useContext(LastSeenContext);
+  const { moviesLastSeen, tvShowsLastSeen } = useContext(LastSeenContext);
 
-  const moviesLastSeen = lastSeen.filter((media) => media.media_type === 'movie');
-  const tvShowsLastSeen = lastSeen.filter((media) => media.media_type === 'tv');
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Últimos catálogos acessados..</Text>
-      <View style={moviesLastSeen.length ? { display: 'block' } : { display: 'none' }}>
+      <View style={moviesLastSeen.length >= 0 ? { display: 'block' } : { display: 'none' }}>
         <Title text='Filmes'></Title>
         <FlatList data={moviesLastSeen} renderItem={({ item }) => <Card media={item}></Card>} horizontal></FlatList>
       </View>
-      <View style={tvShowsLastSeen.length ? { display: 'block' } : { display: 'none' }}>
+      <View style={tvShowsLastSeen.length >= 0 ? { display: 'block' } : { display: 'none' }}>
         <Title text='Series'></Title>
         <FlatList data={tvShowsLastSeen} renderItem={({ item }) => <Card media={item}></Card>} horizontal></FlatList>
       </View>
